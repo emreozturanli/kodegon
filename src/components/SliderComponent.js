@@ -2,7 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-export const SliderComponent = () => {
+const SliderComponent = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -27,22 +27,24 @@ export const SliderComponent = () => {
     <div style={{ position: 'relative' }}>
       <Slider {...settings}>
         <div className="slider-img-container">
-          
+          {/* we can also use img here */}
         </div>
         <div className="slider-img-container">
-          
+           {/* we can also use img here */}
         </div>
         <div className="slider-img-container">
-          
+           {/* we can also use img here */}
         </div>
         <div className="slider-img-container">
-          
+           {/* we can also use img here */}
         </div>
         <div className="slider-img-container">
-         
+          {/* we can also use img here */}
         </div>
       </Slider>
       <div className="line"></div>
     </div>
   )
 }
+
+export default SliderComponent;

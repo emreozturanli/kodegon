@@ -1,5 +1,6 @@
 import NavTabs from "./components/NavTabs";
-import { SliderComponent } from "./components/SliderComponent";
+import Projects from "./components/Projects";
+import SliderComponent  from "./components/SliderComponent";
 import Video from "./components/Video";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
      <SliderComponent/>
      <NavTabs/>
      <Video/>
+     <Projects/>
     </div>
   );
 }

@@ -28,21 +28,15 @@ const NavTabs = () => {
             <article>
                 <h2>{tab.title}</h2>
                 <p>{tab.content}</p>
-                <br />
                 <p>{tab.content2}</p>
-                <br />
                 {more && <>
                 <p>{tab.content3}</p>
-                <br />
                 <p>{tab.content4}</p>
-                <br />
                 <p>{tab.content5}</p>
                 </>}
                 {width > 768 && <>
                 <p>{tab.content3}</p>
-                <br />
                 <p>{tab.content4}</p>
-                <br />
                 <p>{tab.content5}</p>
                 </>}
                 <br />
